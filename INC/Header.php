@@ -1,5 +1,3 @@
-
-        <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -33,24 +31,6 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#"> Action </a></li>
               <li><a class="dropdown-item" href="#"> Another action </a></li>
-              <li><a class="dropdown-item" href="#"> Action </a></li>
-              <li><a class="dropdown-item" href="#"> Another action </a></li>
-              <li><a class="dropdown-item" href="#"> Action </a></li>
-              <li><a class="dropdown-item" href="#"> Another action </a></li>
-              <li><a class="dropdown-item" href="#"> Action </a></li>
-              <li><a class="dropdown-item" href="#"> Another action </a></li>
-              <li><a class="dropdown-item" href="#"> Action </a></li>
-              <li><a class="dropdown-item" href="#"> Another action </a></li>
-              <li><a class="dropdown-item" href="#"> Action </a></li>
-              <li><a class="dropdown-item" href="#"> Another action </a></li>
-              <li><a class="dropdown-item" href="#"> Action </a></li>
-              <li><a class="dropdown-item" href="#"> Another action </a></li>
-              <li><a class="dropdown-item" href="#"> Action </a></li>
-              <li><a class="dropdown-item" href="#"> Another action </a></li>
-              <li><a class="dropdown-item" href="#"> Action </a></li>
-              <li><a class="dropdown-item" href="#"> Another action </a></li>
-              <li><a class="dropdown-item" href="#"> Action </a></li>
-              <li><a class="dropdown-item" href="#"> Another action </a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#"> Something else here </a></li>
             </ul>
@@ -63,19 +43,12 @@
         </form>
         
         <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll ">
-          
-            <!--login/quit-->
-            <?php if (isset($_SESSION["username"])) {
+            <?php   if (isset($_SESSION["username"])) {
                         echo"<li class='nav-item' style='color:red;'>".$_SESSION['username']."</li>";
                         echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> log out </button></a></li>';
                     else {
                       echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> log in </button></a></li>';
                       echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> Register </button></a></li>';
                     } 
-            ?>        
-            <a class="" href="#"> <button class="btn btn-outline-success"> log in </button> </a>
-          </li>
-          <li class="nav-item ">
-            <!--Regisztráció/ semmi ha be vagy jelentkezve--> <a class="" href="#"> <button class="btn btn-outline-success"> Register </button> </a>
-          </li>
+            ?>
         </ul>
