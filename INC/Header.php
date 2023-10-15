@@ -43,8 +43,8 @@
                                 echo"<li class='nav-item' style='color:red;'>".$_SESSION['username']."</li>";
                                 echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> log out </button></a></li>';
                             else {
-                            echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> log in </button></a></li>';
-                            echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> Register </button></a></li>';
+                                echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> log in </button></a></li>';
+                                echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> Register </button></a></li>';
                             } 
                     ?>
                 </ul>
