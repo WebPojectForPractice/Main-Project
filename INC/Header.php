@@ -41,7 +41,7 @@
                 <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll ">
                     <?php   if (isset($_SESSION["username"])) {
                                 echo"<li class='nav-item' style='color:red;'>".$_SESSION['username']."</li>";
-                                echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> log out </button></a></li>';
+                                echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> log out </button></a></li>';}
                             else {
                                 echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> log in </button></a></li>';
                                 echo'<li class="nav-item"> <a class="" href="#"><button class="btn btn-outline-success"> Register </button></a></li>';

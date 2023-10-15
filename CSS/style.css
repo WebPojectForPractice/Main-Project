@@ -8,7 +8,8 @@ nav{
                                                 color: var(--c0);
                                                 background-color: var(--mc1);
 }
-.nav-link, .nav-link:hover, .nav-link:visited, .nav-link:active, .navbar-nav .nav-link.show{
+.nav-link, .nav-link:hover, .nav-link:visited,
+ .nav-link:active, .navbar-nav .nav-link.show{
                                                 color: var(--c2);
                                                 font-size: 26px;
                                                 font-weight: 600;
@@ -26,31 +27,29 @@ nav{
                                                 font-size: 32px;
 }
 .dropdown-menu{
-        background-color: rgb(220, 220, 220);
-        max-height: 250px;
-        overflow-y: scroll;
+                                                background-color: rgb(220, 220, 220);
+                                                max-height: 250px;
+                                                overflow-y: scroll;
 }
 
 
 .btn-outline-success {
-        --bs-btn-color: var(--c2);
-        --bs-btn-border-color: var(--c2);
-        --bs-btn-hover-color: #fff;
-        --bs-btn-hover-bg: var(--c2);
-        --bs-btn-hover-border-color: var(--c2);
-        --bs-btn-focus-shadow-rgb: 25,135,84;
-        --bs-btn-active-color: #fff;
-        --bs-btn-active-bg: var(--c2);
-        --bs-btn-active-border-color: var(--c2);
-        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-        --bs-btn-disabled-color: var(--c2);
-        --bs-btn-disabled-bg: transparent;
-        --bs-btn-disabled-border-color: var(--c2);
-        --bs-gradient: none;
+                                                --bs-btn-color: var(--c2);
+                                                --bs-btn-border-color: var(--c2);
+                                                --bs-btn-hover-color: #fff;
+                                                --bs-btn-hover-bg: var(--c2);
+                                                --bs-btn-hover-border-color: var(--c2);
+                                                --bs-btn-focus-shadow-rgb: 25,135,84;
+                                                --bs-btn-active-color: #fff;
+                                                --bs-btn-active-bg: var(--c2);
+                                                --bs-btn-active-border-color: var(--c2);
+                                                --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+                                                --bs-btn-disabled-color: var(--c2);
+                                                --bs-btn-disabled-bg: transparent;
+                                                --bs-btn-disabled-border-color: var(--c2);
+                                                --bs-gradient: none;
 }
-.LRQ{                                           
-                                                padding-top: 10px;
-}
+.LRQ{                                           padding-top: 10px;}
 .main{
                                                 background-image: url(../IMG/Background-top.jpg);
                                                 background-repeat: no-repeat;
@@ -59,9 +58,7 @@ nav{
                                                 padding: 35px;
 }
 .main h1{                                       font-weight: 600;}
-.spacer{                                    
-                                                padding: 800px;
-}
+.spacer{                                        padding: 800px;}
 .footer{                                        text-align: right;}
 
 .owner{                                     
