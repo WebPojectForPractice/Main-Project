@@ -1,8 +1,4 @@
 <?php include_once "./INC/Header.php";?>
-
-      </div>
-    </div>
-  </nav>
   <div class="main">
     <div class="white">
         <h1> Something text to show off </h1>
