@@ -6,4 +6,4 @@
         <div class="spacer"></div>
     </div>
   </div>
-<?php include_once "./INC/Footer.php";?>
+<?php include_once "./INC/Footer.php";?
